@@ -1,8 +1,8 @@
 #include<stdio.h>
 int digit(long n)
 {
-    if(n==0)
-        return 0;
+    if(n>=9)
+        return 1;
     return 1+digit(n/10);
 }
 
